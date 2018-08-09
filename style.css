@@ -1,23 +1,33 @@
+body{
+  background-color: black;
+}
 .uplist{
-  border-color: black;
-  border:  solid ;
-  
-  height: 50px;
+  border:  solid black ;
+  height: 55px;
   width:100%;
+  background-color: purple;
 }
 
-.Home{
-  background-color : white;
+.rightportion{
+    border: solid ;
+    height:50px;
+    width:975px;
+    position: relative;
+    left: 25%;
+    background-color: black;
+}
+.middlespace{
+  border: thin red;
+  width:5px;
+  height:5px;
+
+}
+
+.toplistbutton{
+  background-color : black;
+  text-align: center;
+  font-size: 25px;
+  display: inline-block;
+  padding: 13px 50px ;
+  color: white;
  }
-
-.Mood{
-  background-color : white;
-}
-
-.Now_Playing{
-  background-color : white;
-}
-
-.Contact{
-  background-color : white;
-}
