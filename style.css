@@ -37,4 +37,11 @@ body{
  }
  .box{
    border: 1px solid black;
+   color: white;
+   width: 500px;
+   height: 500px;
  }
+#spongebob{
+  width: 500px;
+  height: 500px;
+}
