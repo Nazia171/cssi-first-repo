@@ -31,3 +31,10 @@ body{
   padding: 13px 50px ;
   color: white;
  }
+ .container{
+   display: grid;
+   grid-template-columns: auto auto auto;
+ }
+ .box{
+   border: 1px solid black;
+ }
