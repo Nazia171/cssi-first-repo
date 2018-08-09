@@ -1,7 +1,23 @@
 .uplist{
   border-color: black;
-  border: 2px solid black;
-  border-radius: 10px;
-  height: 10px;
+  border:  solid ;
+  
+  height: 50px;
   width:100%;
+}
+
+.Home{
+  background-color : white;
+ }
+
+.Mood{
+  background-color : white;
+}
+
+.Now_Playing{
+  background-color : white;
+}
+
+.Contact{
+  background-color : white;
 }
