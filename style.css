@@ -1,7 +1,7 @@
 .uplist{
   border-color: black;
   border:  solid ;
-  
+
   height: 50px;
   width:100%;
 }
@@ -20,4 +20,11 @@
 
 .Contact{
   background-color : white;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.box{
+  border: 1px solid black;
 }
