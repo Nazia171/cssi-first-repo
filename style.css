@@ -3,18 +3,19 @@ body{
 }
 .uplist{
   border:  solid black ;
-  height: 55px;
+  height: 75px;
   width:100%;
   background-color: purple;
+  padding: 10px ;
 }
 
 .rightportion{
-    border: solid ;
+    
     height:50px;
     width:975px;
     position: relative;
     left: 25%;
-    background-color: black;
+    background-color: purple;
 }
 .middlespace{
   border: thin red;
