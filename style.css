@@ -17,12 +17,6 @@ body{
     left: 25%;
     background-color: purple;
 }
-.middlespace{
-  border: thin red;
-  width:5px;
-  height:5px;
-
-}
 
 .toplistbutton{
   background-color : black;
@@ -31,14 +25,30 @@ body{
   display: inline-block;
   padding: 13px 50px ;
   color: white;
- }
+}
  .container{
    display: grid;
    grid-template-columns: auto auto auto;
- }
+   grid-template-rows: 250px;
+   padding: 10px;
+   margin-left: 15%;
+}
  .box{
    border: 1px solid black;
    color: white;
-   width: 500px;
-   height: 500px;
- }
+   width: 200px;
+   height: 200px;
+   background-color: white;
+}
+#spongebob{
+  width: 200px;
+  height: 200px;
+}
+#simpson{
+  width: 200px;
+  height: 200px;
+}
+#minion{
+  width: 200px;
+  height: 200px;
+}
