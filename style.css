@@ -1,34 +1,53 @@
 body{
   background-color: black;
+  margin: 0%;
 }
 .uplist{
   border:  solid black ;
-  height: 40px;
+  height: 25px;
   width:100%;
   background-color: purple;
   padding: 10px ;
   position:fixed;
+  margin-left: :0%;
 }
-
+.underuplist{
+  width: 100%;
+  height :60px;
+  background-color: yellow;
+}
+.underuplist1{
+  width: 100%;
+  height: 3px;
+  background-color: #b2b09b;
+}
 .rightportion{
-
     height:10px;
-    width:975px;
+    width:1000px;
     position: relative;
     left: 25%;
     background-color: #80007cfa;
     display: grid;
-    grid-template-columns: 175px 150px 300px 150px;
-
+    grid-template-columns: 175px 150px 300px 155px;
 }
 .toplistbutton{
   background-color : #80007cfa;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   display: inline-block;
-  padding: 8px 50px ;
-  color: pink;
+  padding: 3px 50px ;
+  color: #ffe500;
   border: none;
+}
+
+
+
+
+
+
+
+.scrolldownarrow{
+  margin-left: 50%;
 
 }
  .container{
