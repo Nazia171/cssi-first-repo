@@ -3,28 +3,33 @@ body{
 }
 .uplist{
   border:  solid black ;
-  height: 75px;
+  height: 40px;
   width:100%;
   background-color: purple;
   padding: 10px ;
+  position:fixed;
 }
 
 .rightportion{
 
-    height:50px;
+    height:10px;
     width:975px;
     position: relative;
     left: 25%;
-    background-color: purple;
-}
+    background-color: #80007cfa;
+    display: grid;
+    grid-template-columns: 175px 150px 300px 150px;
 
+}
 .toplistbutton{
-  background-color : black;
+  background-color : #80007cfa;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   display: inline-block;
-  padding: 13px 50px ;
-  color: white;
+  padding: 8px 50px ;
+  color: pink;
+  border: none;
+
 }
  .container{
    display: grid;
