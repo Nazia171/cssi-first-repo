@@ -1,12 +1,12 @@
 body{
-  background-color: black;
+  background-color:black;
   margin: 0%;
 }
 .uplist{
   border:  solid black ;
   height: 25px;
   width:100%;
-  background-color: purple;
+  background-color: black;
   padding: 10px ;
   position:fixed;
   margin-left: :0%;
@@ -26,45 +26,67 @@ body{
     width:1000px;
     position: relative;
     left: 25%;
-    background-color: #80007cfa;
+    background-color:black;
     display: grid;
     grid-template-columns: 175px 150px 300px 155px;
 }
 .toplistbutton{
-  background-color : #80007cfa;
+  background-color : black;
   text-align: center;
   font-size: 25px;
   display: inline-block;
   padding: 3px 50px ;
   color: #ffe500;
   border: none;
+  font-family: 'Advent Pro';
 }
-
-
-
-
-
-
-
+.BIGPICTURE{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height:auto;
+}
 .scrolldownarrow{
-  margin-left: 50%;
 
+  margin-left: 50%;
+  margin-right: auto;
+  height:50px;
+  width:70px;
+  border-radius: 5px;
+  opacity: 0.5;
+  /* background-image: url(""); */
+  background-color: black;
+  border:none;
 }
- .container{
-   display: grid;
-   grid-template-columns: auto auto auto;
-   grid-template-rows: 250px;
-   padding: 10px;
-   margin-left: 15%;
+
+i {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
 }
- .box{
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.container{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 400px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+}
+.box{
    border: 1px solid black;
    color: white;
-   width: 200px;
-   height: 200px;
+   width: 275px;
+   height: 275px;
    background-color: white;
 }
 #spongebob{
-  width: 200px;
-  height: 200px;
+  width: 275px;
+  height: 275px;
 }
