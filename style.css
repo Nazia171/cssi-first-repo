@@ -3,7 +3,6 @@ body{
   margin: 0%;
 }
 .uplist{
-  border:  solid black ;
   height: 25px;
   width:100%;
   background-color: black;
@@ -13,7 +12,7 @@ body{
 }
 .underuplist{
   width: 100%;
-  height :60px;
+  height :50px;
   background-color: yellow;
 }
 .underuplist1{
@@ -22,8 +21,8 @@ body{
   background-color: #b2b09b;
 }
 .rightportion{
-    height:10px;
-    width:1000px;
+    height:20px;
+    width:100%;
     position: relative;
     left: 25%;
     background-color:black;
@@ -35,7 +34,7 @@ body{
   text-align: center;
   font-size: 25px;
   display: inline-block;
-  padding: 3px 50px ;
+  padding: 2.5px 50px ;
   color: #ffe500;
   border: none;
   font-family: 'Advent Pro';
@@ -49,14 +48,30 @@ body{
 }
 .quote{
   background-color: black;
-  height:20px;
+  height:50px;
   width: 100%;
   color: white;
-  font-family: 'Aclonica';
+  font-family: 'Aldrich';
   letter-spacing: 8px;
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 3px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+.centeredquote{
+
+  top: 50%;
+  left: 50%;
+
+}
+.username span:nth-child(2n+1) {
+
+  color: lightblue;
+}
+.username span:nth-child(2n+2) {
+  color: lightgreen;
+}
+.username span:nth-child(2n+3) {
+  color: violet;
 }
 .scrolldownarrow{
   margin-left: 50%;
@@ -104,6 +119,10 @@ i {
 .bottomcontainer{
   width:100%;
   height:auto;
+}
+.bottompic{
+  width:100%;
+  height:100px;
 }
 .contacts{
   width:100%;
