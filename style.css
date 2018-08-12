@@ -116,6 +116,18 @@ i {
   width: 275px;
   height: 275px;
 }
+#simpson{
+  width: 500px;
+  height: 500px;
+}
+#party{
+  width: 275px;
+  height: 275px;
+}
+#relaxed{
+  width: 275px;
+  height: 275px;
+}
 .bottomcontainer{
   width:100%;
   height:auto;
@@ -183,4 +195,12 @@ i {
   text-align: center;
   color: grey;
 
+}
+#simpson{
+  width: 200px;
+  height: 200px;
+}
+#minion{
+  width: 200px;
+  height: 200px;
 }
