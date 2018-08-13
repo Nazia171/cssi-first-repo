@@ -60,7 +60,7 @@ body{
 .centeredquote{
 
   top: 50%;
-  left: 50%;
+  /* left: ; */
 
 }
 .username span:nth-child(2n+1) {
@@ -113,21 +113,23 @@ i {
    background-color: white;
 }
 #spongebob{
-  width: 275px;
-  height: 275px;
+  width: 100%;
+  height: 100%;
 }
 #simpson{
   width: 100%;
   height: 100%;
 }
-#party{
-  width: 275px;
-  height: 275px;
+#dancingball{
+  width: 100%;
+  height: 100%;
 }
-#relaxed{
-  width: 275px;
-  height: 275px;
+#relaxpic{
+  width: 100%;
+  height: 100%;
 }
+
+
 .bottomcontainer{
   width:100%;
   height:auto;
