@@ -9,12 +9,19 @@ the_jinja_env = jinja2.Environment(
     autoescape=True)
 
 
-class HomePage(webapp2.RequestHandler):
+class homePage(webapp2.RequestHandler):
     def get(self):
-        home_template = the_jinja_env.get_template('templates/index.html')
+        home_template = the_jinja_env.get_template('index.html')
         self.response.write(home_template.render())
 
 
+
+class musicPage(webapp2.RequestHandler):
+    def get(self):
+        music_template = the_jinja_env.get_template('music.html')
+        self.response.write("HIIIII")
+
 app= webapp2.WSGIApplication([
-    ('/', HomePage)
+    ('/', homePage),
+    ('/music', musicPage)
 ], debug=True)
