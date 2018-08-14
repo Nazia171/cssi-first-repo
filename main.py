@@ -20,8 +20,9 @@ class musicPage(webapp2.RequestHandler):
     def get(self):
         music_template = the_jinja_env.get_template('music.html')
         # self.response.write("HIIIII")
+        self.response.write(music_template.render())
 
-    def get(post):
+
 
 
 app= webapp2.WSGIApplication([
