@@ -1,0 +1,208 @@
+body{
+  background-color:#510418;
+  margin: 0%;
+}
+.uplist{
+  height: 25px;
+  width:100%;
+  background-color: black;
+  padding: 10px ;
+  position:fixed;
+  margin-left: :0%;
+}
+.underuplist{
+  width: 100%;
+  height :50px;
+  background-color: yellow;
+}
+.underuplist1{
+  width: 100%;
+  height: 3px;
+  background-color: #b2b09b;
+}
+.rightportion{
+    height:20px;
+    width:100%;
+    position: relative;
+    left: 25%;
+    background-color:black;
+    display: grid;
+    grid-template-columns: 175px 150px 300px 155px;
+  
+}
+.toplistbutton{
+  background-color : black;
+  text-align: center;
+  font-size: 25px;
+  display: inline-block;
+  padding: 2.5px 50px ;
+  color: #ffe500;
+  border: none;
+  font-family: 'Advent Pro';
+  font-weight: 700;
+}
+.home{
+  color: black;
+  background-color: yellow;
+}
+.BIGPICTURE{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height:auto;
+}
+
+/* .quote{
+  background-color: black;
+  height:50px;
+  width: 100%;
+  color: white;
+  font-family: 'Aldrich';
+  letter-spacing: 8px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 5px;
+} */
+.centeredquote{
+
+  top: 50%;
+  /* left: ; */
+
+}
+.scrolldownarrow{
+  margin-left: 50%;
+  margin-right: auto;
+  height:50px;
+  width:70px;
+  border-radius: 5px;
+  opacity: 0.5;
+  /* background-image: url(""); */
+  background-color: #510418;
+  border:none;
+}
+
+i {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.container{
+  display: grid;
+  grid-template-columns: 335px 335px 335px;
+  grid-template-rows: 300px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
+  /* border: 3px solid #73AD21; */
+
+}
+.box{
+   border: 1px solid black;
+   color: white;
+   width: 250px;
+   height: 250px;
+   background-color: white;
+}
+#spongebob{
+  width: 100%;
+  height: 100%;
+}
+#simpson{
+  width: 100%;
+  height: 100%;
+}
+#dancingball{
+  width: 100%;
+  height: 100%;
+}
+#relaxpic{
+  width: 100%;
+  height: 100%;
+}
+#love{
+  width: 100%;
+  height: 100%;
+}
+#culture{
+  width: 100%;
+  height: 100%;
+}
+#logo{
+  height: 75px;
+  width:95px;
+}
+.bottomcontainer{
+  width:100%;
+  height:auto;
+}
+.bottompic{
+  width:100%;
+  height:100px;
+}
+.contacts{
+  width:100%;
+  height: 300px;
+  background-color: black;
+}
+.contactbox{
+  height:120px;
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+}
+.fa {
+  padding: 30px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.bottomtext{
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+
+}
