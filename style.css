@@ -28,6 +28,7 @@ body{
     background-color:black;
     display: grid;
     grid-template-columns: 175px 150px 300px 155px;
+  
 }
 .toplistbutton{
   background-color : black;
@@ -132,6 +133,10 @@ i {
 #culture{
   width: 100%;
   height: 100%;
+}
+#logo{
+  height: 75px;
+  width:95px;
 }
 .bottomcontainer{
   width:100%;
