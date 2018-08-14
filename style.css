@@ -38,6 +38,11 @@ body{
   color: #ffe500;
   border: none;
   font-family: 'Advent Pro';
+  font-weight: 700;
+}
+.home{
+  color: black;
+  background-color: yellow;
 }
 .BIGPICTURE{
   display: block;
@@ -46,7 +51,8 @@ body{
   width: 100%;
   height:auto;
 }
-.quote{
+
+/* .quote{
   background-color: black;
   height:50px;
   width: 100%;
@@ -56,22 +62,12 @@ body{
   text-align: center;
   padding-top: 8px;
   padding-bottom: 5px;
-}
+} */
 .centeredquote{
 
   top: 50%;
   /* left: ; */
 
-}
-.username span:nth-child(2n+1) {
-
-  color: lightblue;
-}
-.username span:nth-child(2n+2) {
-  color: lightgreen;
-}
-.username span:nth-child(2n+3) {
-  color: violet;
 }
 .scrolldownarrow{
   margin-left: 50%;
@@ -99,11 +95,12 @@ i {
   display: grid;
   grid-template-columns: 335px 335px 335px;
   grid-template-rows: 300px;
-  padding: 10px;
+  padding: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 66%;
   /* border: 3px solid #73AD21; */
+
 }
 .box{
    border: 1px solid black;
